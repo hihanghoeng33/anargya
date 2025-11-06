@@ -82,19 +82,19 @@ export default function Home() {
             </div>
             <div className="mx-auto hover:text-cyan-400 transition-colors">
               <div className="rounded-full bg-[#FFFAFF] w-52 h-52 lg:w-[250px] lg:h-[250px]">
-                <Image src="/t-shirt-copy.png" alt="Racing T-Shirt" width={184} height={184} className="lg:w-52 lg:h-52 transition-transform duration-300 ease-in-out hover:-translate-y-8  object-cover mx-auto mb-4" />
+                <Image src="/t-shirt-copy.png" alt="Racing T-Shirt" width={184} height={184} className="lg:w-52 lg:h-52 transition-transform duration-300 ease-in-out hover:-translate-y-8 object-cover mx-auto mb-4" />
               </div>
               <h3 className="font-semibold text-lg mt-4">Racing Team T-Shirt</h3>
             </div>
             <div className="mx-auto hover:text-cyan-400 transition-colors">
               <div className="rounded-full bg-[#FFFAFF] w-52 h-52 lg:w-[250px] lg:h-[250px]">
-                <Image src="/jacket-copy.png" alt="Racing Jacket" width={144} height={144} className="lg:w-48 lg:h-48 transition-transform duration-300 ease-in-out hover:-translate-y-8 object-cover mx-auto mb-4" />
+                <Image src="/jacket-copy.png" alt="Racing Jacket" width={144} height={144} className="lg:w-44 lg:h-56 transition-transform duration-300 ease-in-out hover:-translate-y-8 object-cover mx-auto mb-4" />
               </div>
               <h3 className="font-semibold text-lg mt-4">Racing Team Jacket</h3>
             </div>
             <div className="mx-auto hover:text-cyan-400 transition-colors">
               <div className="rounded-full bg-[#FFFAFF] w-52 h-52 lg:w-[250px] lg:h-[250px]">
-                <Image src="/tumbler-copy.png" alt="Racing Tumbler" width={176} height={176} className="lg:w-48 lg:h-48 transition-transform duration-300 ease-in-out hover:-translate-y-8s object-cover mx-auto mb-4" />
+                <Image src="/tumbler-copy.png" alt="Racing Tumbler" width={176} height={176} className="lg:w-48 lg:h-48 transition-transform duration-300 ease-in-out hover:-translate-y-8 object-cover mx-auto mb-4" />
               </div>
               <h3 className="font-semibold text-lg mt-4">Racing Team Tumbler</h3>
             </div>
