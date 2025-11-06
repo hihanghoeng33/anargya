@@ -33,7 +33,7 @@ const MobileMenu: React.FC = () => {
         ></div>
       </button>
 
-      {/* Overlay Background */}
+
       {isOpen && (
         <div
           className="fixed inset-0 z-40 transition-opacity duration-300 md:hidden" 
@@ -47,19 +47,19 @@ const MobileMenu: React.FC = () => {
         aria-expanded={isOpen}
       >
         <div className="flex h-full flex-col bg-gray-800 p-8 pt-8 text-blue-400">
-          <Link href="#" className="mb-4 text-lg hover:bg-blue-400 hover:text-[#FFFAFF]" onClick={toggleMenu}>
+          <Link href="/models" className="mb-4 text-lg hover:bg-blue-400 hover:text-[#FFFAFF]" onClick={toggleMenu}>
             Models
           </Link>
-          <Link href="#" className="mb-4 text-lg hover:bg-blue-400 hover:text-[#FFFAFF]" onClick={toggleMenu}>
+          <Link href="/gallery" className="mb-4 text-lg hover:bg-blue-400 hover:text-[#FFFAFF]" onClick={toggleMenu}>
             Gallery
           </Link>
-          <Link href="#" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
+          <Link href="/achievements" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
             Achievements
           </Link>
-          <Link href="#" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
+          <Link href="/product" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
             Store
           </Link>
-          <Link href="#" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
+          <Link href="/contact" className="mb-4 text-lg hover:text-[#FFFAFF]" onClick={toggleMenu}>
             Contact
           </Link>
         </div>

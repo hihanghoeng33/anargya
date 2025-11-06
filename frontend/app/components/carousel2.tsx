@@ -21,7 +21,6 @@ export default function Carousel() {
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
-  // Auto slide
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
@@ -43,8 +42,8 @@ export default function Carousel() {
 
   const handleTouchEnd = (e: React.TouchEvent) => {
     touchEndX.current = e.changedTouches[0].clientX;
-    if (touchStartX.current - touchEndX.current > 50) nextSlide(); // swipe left
-    if (touchStartX.current - touchEndX.current < -50) prevSlide(); // swipe right
+    if (touchStartX.current - touchEndX.current > 50) nextSlide(); 
+    if (touchStartX.current - touchEndX.current < -50) prevSlide(); 
   };
 
   return (
@@ -53,7 +52,6 @@ export default function Carousel() {
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{
@@ -76,10 +74,8 @@ export default function Carousel() {
         ))}
       </div>
 
-      {/* Gradient overlay */}
       <div className="absolute inset-0 bg-linear-to-t from-zinc-900/40 to-transparent pointer-events-none"></div>
 
-      {/* Arrows (desktop) */}
       <button
         onClick={prevSlide}
         className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 p-2 rounded-full text-white transition-all"

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" className="scroll-smooth overflow-x-hidden">
       <body
@@ -49,7 +51,7 @@ export default function RootLayout({
                       <Link href="/gallery" className="text-cyan-400 text-lg font-medium hover:font-bold transition-all">Gallery</Link>
                       <Link href="/achievements" className="text-cyan-400 text-lg font-medium hover:font-bold transition-all">Achievements</Link>
                       <Link href="/contact" className="text-cyan-400 text-lg font-medium hover:font-bold transition-all">Contact</Link>
-                      <Link href="/" className="text-cyan-400 text-lg font-medium hover:font-bold transition-all">Store</Link>
+                      <Link href="/product" className="text-cyan-400 text-lg font-medium hover:font-bold transition-all">Store</Link>
                     </div>
                   </div>
 

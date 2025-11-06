@@ -15,8 +15,6 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-800 text-white font-['Be_Vietnam_Pro']">
       <main className="overflow-hidden">
         <Carousel />
-
-
         <section className="max-w-3xl mx-auto p-8 py-16 md:py-24">
           <h2 className="text-center text-3xl lg:text-4xl font-bold mb-8 text-white">
             Greetings! We Are <span className="text-cyan-400">Iswarayana Team</span>
@@ -29,6 +27,7 @@ export default function Home() {
               Since 2006, we have evolved from a passionate student project into one of the most respected contenders on the circuit. With a series of podium wins, radical innovations, and a relentless drive, we ride as a championship contender.
             </p>
           </div>
+
           <div className="text-center mt-12">
             <Link href="/models" className="text-cyan-400 text-2xl font-semibold hover:underline">
               Discover Our Models
@@ -38,7 +37,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+        
 
         <section className="bg-cyan-400 text-[#FFFAFF] p-8 py-16 md:py-24">
           <div className="max-w-7xl mx-auto">
@@ -72,7 +71,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 4. Merch Section */}
         <section className="max-w-7xl mx-auto p-8 py-16 md:py-24 ">
           <h2 className="text-center sm:2xl md:3xl lg:text-4xl font-bold mb-12">Explore our Merch Collection</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
